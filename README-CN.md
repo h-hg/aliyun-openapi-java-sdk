@@ -10,7 +10,6 @@
 <a href="https://search.maven.org/search?q=g:%22com.aliyun%22%20AND%20a:%22aliyun-java-sdk-core%22"><img src="https://img.shields.io/maven-central/v/com.aliyun/aliyun-java-sdk-core.svg?label=Maven%20Central" alt="Latest Stable Version"/></a>
 <a href="https://travis-ci.org/aliyun/aliyun-openapi-java-sdk"><img src="https://travis-ci.org/aliyun/aliyun-openapi-java-sdk.svg?branch=master"/></a>
 <a href="https://codecov.io/gh/aliyun/aliyun-openapi-java-sdk"><img src="https://codecov.io/gh/aliyun/aliyun-openapi-java-sdk/branch/master/graph/badge.svg"/></a>
-<!-- <a href="https://www.codacy.com/app/aliyun/aliyun-openapi-java-sdk?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=aliyun/aliyun-openapi-java-sdk&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/aef3826e57ca444fb217bab8edaed195"/></a> -->
 <a href="https://ci.appveyor.com/project/aliyun/aliyun-openapi-java-sdk"><img src="https://ci.appveyor.com/api/projects/status/levg38kb55k0pn1v/branch/master?svg=true"/></a>
 </p>
 
@@ -19,13 +18,17 @@
 如果您在使用 Alibaba Cloud SDK for Java 的过程中遇到任何问题，欢迎在当前 GitHub [提交 Issues](https://github.com/aliyun/aliyun-openapi-java-sdk/issues/new)。
 
 ## 环境要求
+
 1. 要使用 Alibaba Cloud SDK for Java ，您需要一个云账号以及一对`Access Key ID`和`Access Key Secret`。 请在阿里云控制台中的[AccessKey管理页面](https://usercenter.console.aliyun.com/?spm=5176.doc52740.2.3.QKZk8w#/manage/ak)上创建和查看您的Access Key，或者联系您的系统管理员。
 2. 要使用 Alibaba Cloud SDK for Java 访问某个产品的API，您需要事先在[阿里云控制台](https://home.console.aliyun.com/?spm=5176.doc52740.2.4.QKZk8w)中开通这个产品。
 3.  Alibaba Cloud SDK for Java 需要1.6以上的JDK。
 
 ## 安装依赖
+
 无论您要使用哪个产品的开发工具包，都必须安装`aliyun-java-sdk-core`。比如，对云服务器SDK的调用，您需要安装`aliyun-java-sdk-core`和`aliyun-java-sdk-ecs`。
+
 #### 通过Maven来管理项目依赖(推荐)
+
 如果您使用Apache Maven来管理Java项目，只需在项目的`pom.xml`文件加入相应的依赖项即可。您可以在[阿里云开发者资源](https://help.aliyun.com/learn/developer.html)中下载各云产品的Maven依赖。
 以使用Ecs SDK为例，您只需在`pom.xml`中声明以下两个依赖：
 ```xml
@@ -61,7 +64,8 @@
 ```
 
 ## 使用诊断
-[Troubleshoot](https://troubleshoot.api.aliyun.com/?source=github_sdk) 提供 OpenAPI 使用诊断服务，通过 `RequestID` 或 `报错信息` ，帮助开发者快速定位，为开发者提供解决方案。
+
+[Troubleshoot](https://api.aliyun.com/troubleshoot?source=github_sdk) 提供 OpenAPI 使用诊断服务，通过 `RequestID` 或 `报错信息` ，帮助开发者快速定位，为开发者提供解决方案。
 
 ## 快速使用
 
@@ -104,7 +108,6 @@ public class Main {
     }
 }
 ```
-
 
 ## 文档
 * [环境要求](./docs/0-Requirements-CN.md)
